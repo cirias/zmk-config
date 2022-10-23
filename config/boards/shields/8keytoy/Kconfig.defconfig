@@ -1,0 +1,19 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_8KEYTOY_LEFT
+
+config ZMK_KEYBOARD_NAME
+  default "8KeyToy"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_8KEYTOY_LEFT || SHIELD_8KEYTOY_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif

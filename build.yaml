@@ -12,6 +12,5 @@
 #     shield: reviung41
 #
 ---
-include:
-  - board: seeeduino_xiao_ble
-    shield: hummingbird
+board: [ "seeeduino_xiao_ble" ]
+shield: [ "8keytoy_left", "8keytoy_right" ]

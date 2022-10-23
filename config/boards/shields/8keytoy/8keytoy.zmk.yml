@@ -1,0 +1,10 @@
+file_format: "1"
+id: 8keytoy
+name: 8KeyToy
+type: shield
+requires: [seeed_xiao]
+features:
+  - keys
+siblings:
+  - 8keytoy_left
+  - 8keytoy_right
