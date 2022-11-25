@@ -13,4 +13,4 @@
 #
 ---
 board: [ "seeeduino_xiao_ble" ]
-shield: [ "8keytoy_left", "8keytoy_right" ]
+shield: [ "36key_left", "36key_right" ]
